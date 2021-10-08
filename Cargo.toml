@@ -17,4 +17,4 @@ edition = "2018"
 name = "rtic_monotonic"
 
 [dependencies]
-embedded-time = "0.12.0"
+embedded-time = { git = "https://github.com/korken89/embedded-time.git", branch = "generic-compare-bug" }
